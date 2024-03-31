@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task1/themes/app_color.dart';
-import 'package:task1/themes/text_style.dart';
+import 'package:task1/core/consts/app_color.dart';
+import 'package:task1/core/themes/text_style.dart';
 
 class ContainerWidget extends StatelessWidget {
   String? textName;

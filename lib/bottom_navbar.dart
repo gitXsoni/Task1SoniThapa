@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'core/routes/routes.dart';
-import 'themes/app_color.dart';
+import 'core/consts/app_color.dart';
 
 class BottomNavbarWidget extends StatefulWidget {
   const BottomNavbarWidget({super.key});

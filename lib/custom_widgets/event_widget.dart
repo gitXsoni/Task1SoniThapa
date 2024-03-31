@@ -1,17 +1,15 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:task1/themes/app_color.dart';
-import '../themes/text_style.dart';
+import '../core/consts/app_color.dart';
+import '../core/themes/text_style.dart';
 
-class ImageWidget extends StatelessWidget {
+class EventWidget extends StatelessWidget {
   String? imagePath;
   String? heading;
   String? title;
   String? subtitle;
   final bool showBookOption;
   final IconData? iconData;
-  ImageWidget(
+  EventWidget(
       {super.key,
       this.heading,
       this.imagePath,

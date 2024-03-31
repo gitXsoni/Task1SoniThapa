@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:task1/themes/app_color.dart';
+import 'package:task1/core/consts/app_color.dart';
 
 class MyTextStyles {
   static final TextStyle headerStyle = GoogleFonts.lora(
@@ -18,6 +18,12 @@ class MyTextStyles {
   static final TextStyle normalTextStyle = GoogleFonts.inter(
       textStyle: TextStyle(
     fontSize: 12,
+    color: AppColor.secondaryColor,
+    fontWeight: FontWeight.w400,
+  ));
+  static final TextStyle smallSizeStyle = GoogleFonts.inter(
+      textStyle: TextStyle(
+    fontSize: 8,
     color: AppColor.secondaryColor,
     fontWeight: FontWeight.w400,
   ));

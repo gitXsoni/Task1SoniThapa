@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
-import '../themes/app_color.dart';
-import '../themes/text_style.dart';
+import '../core/consts/app_color.dart';
+import '../core/themes/text_style.dart';
 
 class CustomRow extends StatelessWidget {
   String? text;
